@@ -1,0 +1,9 @@
+﻿// S2C.PIDL	
+[marshaler(cs) = ChattingCommon.Marshaler]
+global S2C 3000
+{
+	NotifyChat([in] string userName, [in] string str);
+	SystemChat([in] string str);
+	ResponseLogin([in] ChattingCommon.User user);
+	ResponseLogout([in] ChattingCommon.User user);
+}

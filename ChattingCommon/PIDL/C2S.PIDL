@@ -1,0 +1,8 @@
+﻿// C2S.PIDL
+[marshaler(cs) = ChattingCommon.Marshaler]
+global C2S 2000
+{
+	Chat([in] string str);
+	Login([in] String userName);
+	Logout();
+}
